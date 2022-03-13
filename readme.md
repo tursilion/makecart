@@ -1,3 +1,5 @@
+20130330
+
 This program takes a TI program image file, broken into
 the usual 8k file chunks and saved as RAW, TIDATA or V9T9
 FIAD files, and combines them into a single GROM file 
@@ -72,12 +74,12 @@ that, you can hold shift while clicking to override that behaviour.
 
 TROUBLESHOOTING
 The basics are:
--Program too large - try enabling 2k GROMs
--Corrupted or missing graphics - try loading the character set
--Program crashes or misbehaves - try enabling Editor/Assembler 
+- Program too large - try enabling 2k GROMs
+- Corrupted or missing graphics - try loading the character set
+- Program crashes or misbehaves - try enabling Editor/Assembler 
  (this means program probably wouldn't work under XB either)
--Too many segments - this program can't condense segments, you 
+- Too many segments - this program can't condense segments, you 
  will need to merge the files some!
--E/A #3 - convert to E/A #5 with the SAVE utility first
--Cart doesn't work at selected base - check if it works at #3 first.
+- E/A #3 - convert to E/A #5 with the SAVE utility first
+- Cart doesn't work at selected base - check if it works at #3 first.
  if it does, let me know! :)
